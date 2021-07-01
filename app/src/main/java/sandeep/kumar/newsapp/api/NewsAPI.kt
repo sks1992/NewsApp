@@ -6,6 +6,7 @@ import retrofit2.http.Query
 import sandeep.kumar.newsapp.model.NewsResponse
 import sandeep.kumar.newsapp.util.Constants.Companion.API_KEY
 
+
 interface NewsAPI {
 
     @GET("v2/top-headlines")
