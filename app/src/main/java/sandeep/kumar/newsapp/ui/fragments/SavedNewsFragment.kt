@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import sandeep.kumar.newsapp.R
 
 
-class SavedNewsFragment : Fragment() {
+class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
    
 
     override fun onCreateView(
